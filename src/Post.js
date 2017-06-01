@@ -5,7 +5,7 @@ var Post = React.createClass({
       return(
         <div className="panel panel-default post-body">
           <div className="panel-body">
-            Hello! I am a post
+            {this.props.postBody}
           </div>
         </div>
 
