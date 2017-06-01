@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 var Post = React.createClass({
   render: function () {
